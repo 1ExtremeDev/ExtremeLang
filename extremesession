@@ -1,0 +1,9 @@
+!Ext(func)<Extreme>{
+    println(author,endl,date,endl,"GOOGLE TEST",endl,endl);
+    println("STATUS CODE: ");
+    request("GET", url);
+}!
+!Ext(var)<url> = "https://google.com/";
+!Ext(var)<date> = "11/30/2021";
+!Ext(var)<author> = "ExtremeDev";
+*call<Extreme>*;
